@@ -1,0 +1,981 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Lawyer-Co - HTML template</title>
+	<!-- FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Gudea:400,400i,700%7CPT+Serif:400,400i,700,700i%7CSlabo+27px&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cabin:600" rel="stylesheet">
+	<!-- STYLES -->
+	<!-- libs -->
+	<link rel="stylesheet" href="css/fontello.css">
+	<link rel="stylesheet" href="css/foundation/foundation.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<!-- custom -->
+	<link rel="stylesheet" href="css/main.css">
+	<!-- LayerSlider stylesheet -->
+	<link rel="stylesheet" href="layerslider/css/layerslider.css" type="text/css">
+	<!-- google map location -->
+	<script>
+		var geoAddress = [
+			{
+				address: 'New York, NY, USA',
+				defaultMarker: false,
+				style: true,
+				zoom: 12
+			},
+			{
+				address: 'Amsterdam, Netherlands'
+			},
+			{
+				address: 'Bangkok, Thailand'
+			},
+			{
+				address: 'Abu Dhabi'
+			},
+			{
+				address: 'Washington'
+			},
+			{
+				address: 'Moscow'
+			}
+		];
+	</script>
+	<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="images/favicon/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="images/favicon/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="images/favicon/manifest.json">
+	<link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg">
+	<link rel="shortcut icon" href="images/favicon/favicon.ico">
+	<meta name="msapplication-TileColor" content="#ffc40d">
+	<meta name="msapplication-TileImage" content="images/favicon/mstile-144x144.png">
+	<meta name="msapplication-config" content="images/favicon/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+
+	<!-- HEADER -->
+	<header class="main-header ">
+		<div class="row-fluid row-fluid--socials">
+			<div class="row align-right">
+				<div class="columns shrink">
+					<div class="socials socials--slide-hover">
+						<a href="#">
+							<i class="icon-twitter icon-hover"></i>
+							<i class="icon-twitter"></i>
+						</a>
+						<a href="#">
+							<i class="icon-facebook icon-hover"></i>
+							<i class="icon-facebook"></i>
+						</a>
+						<a href="#">
+							<i class="icon-linkedin icon-hover"></i>
+							<i class="icon-linkedin"></i>
+						</a>
+						<a href="#">
+							<i class="icon-pinterest-4 icon-hover"></i>
+							<i class="icon-pinterest-4"></i>
+						</a>
+						<a href="#">
+							<i class="icon-rss-1 icon-hover"></i>
+							<i class="icon-rss-1"></i>
+						</a>
+						<a href="#">
+							<i class="icon-gplus-1 icon-hover"></i>
+							<i class="icon-gplus-1"></i>
+						</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="row-fluid" id="js-menu-sticky-anchor">
+			<div class="row align-justify align-middle row-logo">
+				<div class="columns small-12 medium-6">
+					<div class="logo">
+						<a href="index.html">
+
+							<img src="images/logo.png" alt="Logo">
+
+						</a>
+					</div>
+				</div>
+				<div class="columns small-12 shrink">
+					<div class="contact-phone">
+						<i class="icon-phone-3"></i>Free Consultation: <span>+1 334-445-5777</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="sticky-container">
+			<div class="row-fluid row-fluid--menu js-sticky">
+				<div class="row align-middle main-navigation">
+
+					<div class="columns small-order-2 large-order-1 menu-col">
+						<nav>
+							<ul class="menu main-menu">
+								<li class="menu-item current-menu-parent menu-item-has-children">
+									<a href="index.html">Home</a>
+									<ul class="menu sub-menu">
+										<li class="menu-item current-menu-item">
+											<a href="index.html">Home Extended Lawbureau</a>
+										</li>
+										<li class="menu-item ">
+											<a href="home-2.html">Home Classic Lawbureau</a>
+										</li>
+										<li class="menu-item ">
+											<a href="home-3.html">Home Minimal Lawbureau</a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu-item "><a href="about.html">About</a></li>
+								<li class="menu-item  ">
+									<a href="people.html">People</a>
+									<ul class="menu sub-menu">
+										<li class="menu-item ">
+											<a href="single-attorney-people.html">Single Lawyer</a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu-item "><a href="news.html">News</a></li>
+
+								<li class="menu-item"><a href="#">Publications</a></li>
+
+								<li class="menu-item   menu-item-has-children mega-menu-wrapper">
+									<a href="practice-1.html">Expertise</a>
+									<div class="mega-sub-menu">
+										<div class="mega-sub-menu__section">
+											<h4 class="mega-sub-menu__title">Practice areas</h4>
+											<ul class="mega-sub-menu__list mega-sub-menu__list--two-cols">
+												<li class="mega-sub-menu__item "><a href="single-practice.html" class="mega-sub-menu__link">Banking & Finance</a></li>
+												<li class="mega-sub-menu__item"><a href="single-practice.html" class="mega-sub-menu__link">Corporate</a></li>
+												<li class="mega-sub-menu__item"><a href="single-practice.html" class="mega-sub-menu__link">Civil Litigation</a></li>
+												<li class="mega-sub-menu__item"><a href="single-practice.html" class="mega-sub-menu__link">Data Protection & Privacy</a></li>
+												<li class="mega-sub-menu__item"><a href="single-practice.html" class="mega-sub-menu__link">Insurance</a></li>
+												<li class="mega-sub-menu__item"><a href="single-practice.html" class="mega-sub-menu__link">Real Estate</a></li>
+											</ul>
+											<ul class="mega-sub-menu__list mega-sub-menu__list--two-cols">
+												<li class="mega-sub-menu__item"><a href="single-practice.html" class="mega-sub-menu__link">Tax, Employment, Pensions</a></li>
+												<li class="mega-sub-menu__item"><a href="single-practice.html" class="mega-sub-menu__link">Environment</a></li>
+												<li class="mega-sub-menu__item"><a href="single-practice.html" class="mega-sub-menu__link">Life Sciences & Healthcare</a></li>
+											</ul>
+										</div>
+										<div class="mega-sub-menu__section mega-sub-menu__section--separator">
+											<h4 class="mega-sub-menu__title">Sectors</h4>
+											<ul class="mega-sub-menu__list mega-sub-menu__list--two-cols">
+												<li class="mega-sub-menu__item"><a href="#" class="mega-sub-menu__link">Aviations</a></li>
+												<li class="mega-sub-menu__item"><a href="#" class="mega-sub-menu__link">Energy</a></li>
+												<li class="mega-sub-menu__item"><a href="#" class="mega-sub-menu__link">Financial Institutions</a></li>
+												<li class="mega-sub-menu__item"><a href="#" class="mega-sub-menu__link">Professional Practices</a></li>
+												<li class="mega-sub-menu__item"><a href="#" class="mega-sub-menu__link">Industrial and Manufacturing</a></li>
+												<li class="mega-sub-menu__item"><a href="#" class="mega-sub-menu__link">Infrastructure and Transport</a></li>
+											</ul>
+											<ul class="mega-sub-menu__list mega-sub-menu__list--two-cols">
+												<li class="mega-sub-menu__item"><a href="#" class="mega-sub-menu__link">Life Sciences & Healthcare</a></li>
+												<li class="mega-sub-menu__item"><a href="#" class="mega-sub-menu__link">Mining and Natural Resources</a></li>
+												<li class="mega-sub-menu__item"><a href="#" class="mega-sub-menu__link">Real Estate</a></li>
+												<li class="mega-sub-menu__item"><a href="#" class="mega-sub-menu__link">Insurance & Reinsurance</a></li>
+												<li class="mega-sub-menu__item"><a href="#" class="mega-sub-menu__link">Telecommunications</a></li>
+												<li class="mega-sub-menu__item"><a href="#" class="mega-sub-menu__link">Hotels and Leisure</a></li>
+											</ul>
+										</div>
+									</div>
+								</li>
+								<li class="menu-item   menu-item-has-children mega-menu-wrapper">
+									<a href="location.html">Locations</a>
+									<div class="mega-sub-menu">
+										<div class="mega-sub-menu__section mega-sub-menu__section--two-thirds">
+											<h4 class="mega-sub-menu__title">Location</h4>
+											<ul class="mega-sub-menu__list">
+												<li class="mega-sub-menu__item"><a href="single-location.html" class="mega-sub-menu__link">Abu Dhabi</a></li>
+												<li class="mega-sub-menu__item"><a href="single-location.html" class="mega-sub-menu__link">Amsterdam</a></li>
+												<li class="mega-sub-menu__item"><a href="single-location.html" class="mega-sub-menu__link">Bangkok</a></li>
+												<li class="mega-sub-menu__item"><a href="single-location.html" class="mega-sub-menu__link">Barcelona</a></li>
+												<li class="mega-sub-menu__item"><a href="single-location.html" class="mega-sub-menu__link">Beijing</a></li>
+												<li class="mega-sub-menu__item"><a href="single-location.html" class="mega-sub-menu__link">Brussels</a></li>
+												<li class="mega-sub-menu__item"><a href="single-location.html" class="mega-sub-menu__link">Bucharest</a></li>
+												<li class="mega-sub-menu__item"><a href="single-location.html" class="mega-sub-menu__link">Casablanca</a></li>
+											</ul>
+											<ul class="mega-sub-menu__list">
+												<li class="mega-sub-menu__item"><a href="single-location.html" class="mega-sub-menu__link">Doha</a></li>
+												<li class="mega-sub-menu__item"><a href="single-location.html" class="mega-sub-menu__link">Dubai</a></li>
+												<li class="mega-sub-menu__item"><a href="single-location.html" class="mega-sub-menu__link">Düsseldorf</a></li>
+												<li class="mega-sub-menu__item"><a href="single-location.html" class="mega-sub-menu__link">Frankfurt</a></li>
+												<li class="mega-sub-menu__item"><a href="single-location.html" class="mega-sub-menu__link">Hong Kong</a></li>
+												<li class="mega-sub-menu__item"><a href="single-location.html" class="mega-sub-menu__link">Istanbul</a></li>
+												<li class="mega-sub-menu__item"><a href="single-location.html" class="mega-sub-menu__link">Jakarta</a></li>
+												<li class="mega-sub-menu__item"><a href="single-location.html" class="mega-sub-menu__link">London</a></li>
+											</ul>
+											<ul class="mega-sub-menu__list">
+												<li class="mega-sub-menu__item"><a href="single-location.html" class="mega-sub-menu__link">Luxembourg</a></li>
+												<li class="mega-sub-menu__item"><a href="single-location.html" class="mega-sub-menu__link">Madrid</a></li>
+												<li class="mega-sub-menu__item"><a href="single-location.html" class="mega-sub-menu__link">Moscow</a></li>
+												<li class="mega-sub-menu__item"><a href="single-location.html" class="mega-sub-menu__link">Munich</a></li>
+												<li class="mega-sub-menu__item "><a href="single-location.html" class="mega-sub-menu__link">New York</a></li>
+												<li class="mega-sub-menu__item"><a href="single-location.html" class="mega-sub-menu__link">Paris</a></li>
+												<li class="mega-sub-menu__item"><a href="single-location.html" class="mega-sub-menu__link">Prague</a></li>
+												<li class="mega-sub-menu__item"><a href="single-location.html" class="mega-sub-menu__link">Rome</a></li>
+											</ul>
+											<ul class="mega-sub-menu__list">
+												<li class="mega-sub-menu__item"><a href="single-location.html" class="mega-sub-menu__link">São Paulo</a></li>
+												<li class="mega-sub-menu__item"><a href="single-location.html" class="mega-sub-menu__link">Seoul</a></li>
+												<li class="mega-sub-menu__item"><a href="single-location.html" class="mega-sub-menu__link">Shanghai</a></li>
+												<li class="mega-sub-menu__item"><a href="single-location.html" class="mega-sub-menu__link">Singapore</a></li>
+												<li class="mega-sub-menu__item"><a href="single-location.html" class="mega-sub-menu__link">Sydney</a></li>
+												<li class="mega-sub-menu__item"><a href="single-location.html" class="mega-sub-menu__link">Tokyo</a></li>
+												<li class="mega-sub-menu__item"><a href="single-location.html" class="mega-sub-menu__link">Warsaw</a></li>
+												<li class="mega-sub-menu__item"><a href="single-location.html" class="mega-sub-menu__link">Washington</a></li>
+											</ul>
+										</div>
+										<div class="mega-sub-menu__section mega-sub-menu__section--one-thirds">
+											<h4 class="mega-sub-menu__title">Map</h4>
+											<img src="images/map-dark.jpg" alt="map" />
+										</div>
+									</div>
+								</li>
+								<li class="menu-item  ">
+									<a href="careers.html">Careers</a>
+									<ul class="menu sub-menu">
+										<li class="menu-item ">
+											<a href="single-vacancy.html">Single Vacancy</a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu-item  menu-item-has-children">
+									<a href="#">Pages</a>
+									<ul class="menu sub-menu">
+										<li class="menu-item ">
+											<a href="FAQ.html">FAQ</a>
+										</li>
+										<li class="menu-item ">
+											<a href="contact.html">Contact</a>
+										</li>
+										<li class="menu-item ">
+											<a href="gallery.html">Gallery</a>
+										</li>
+										<li class="menu-item ">
+											<a href="practice-1.html">Practice Areas 1</a>
+										</li>
+										<li class="menu-item ">
+											<a href="practice-2.html">Practice Areas 2</a>
+										</li>
+										<li class="menu-item ">
+											<a href="testimonials.html">Testimonials</a>
+										</li>
+										<li class="menu-item ">
+											<a href="elements.html">Elements</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="columns large-1 small-order-1 large-order-2 small-12">
+						<div class="row align-middle menu-search-row">
+							<div class="columns">
+								<div class="nav-menu-icon"><i></i></div>
+							</div>
+							<div class="columns">
+								<div class="row small-collapse align-right">
+									<div class="columns menu-search-col">
+										<form class="search-form">
+											<input type="search" placeholder="Search">
+										</form>
+									</div>
+									<div class="columns shrink">
+										<button type="button" class="button btn-search"><i class="icon-search"></i></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</header>
+
+	<!-- BANER SLIDER -->
+
+	<div class="slider-1">
+		<div id="layerslider" class="ls-wp-container fitvidsignore" style="width:1180px;height:700px;margin:0 auto;margin-bottom: 0;z-index:5;">
+			<div class="ls-slide" data-ls="duration:10000;transition2d:70;timeshift:-3200;kenburnsscale:1.2;">
+				<img width="2560" height="700" src="images/layerslider/01_slide-01.jpg" class="ls-bg" alt="slide-1">
+				<img width="1610" height="700" src="images/layerslider/slider-overlay-01.png" class="ls-l" alt="" style="top:0;left:-300px;text-align:initial;font-weight:400;font-style:normal;text-decoration:none;wordwrap:false;opacity:1;" data-ls="showinfo:1;offsetxin:-100lw;durationin:1500;delayin:200;easingin:easeInOutBack;fadein:false;clipin:0 100% 0 0;offsetxout:-100lw;durationout:1500;startatout:transitioninend + 5100;easingout:easeInBack;fadeout:false;position:fixed;">
+				<img width="1570" height="700" src="images/layerslider/slider-overlay-02.png" class="ls-l" alt="" style="top:0;left:-300px;text-align:initial;font-weight:400;font-style:normal;text-decoration:none;wordwrap:false;opacity:1;"
+					data-ls="showinfo:1;offsetxin:-100lw;durationin:1500;easingin:easeInOutBack;fadein:false;clipin:0 100% 0 0;offsetxout:-100lw;durationout:1500;startatout:transitioninend + 5000;easingout:easeInBack;fadeout:false;position:fixed;">
+				<h2 style="text-transform:uppercase;top:460px;left:90px;text-align:initial;font-weight:400;font-style:normal;text-decoration:none;word-wrap:normal;opacity:1;font-family:Gudea;font-size:36px;color:#ffffff;" class="ls-l" data-ls="showinfo:1;offsetxin:-100lw;durationin:800;delayin:1500;easingin:easeInOutBack;offsetxout:-100lw;durationout:800;startatout:transitioninend + 4600;easingout:easeInBack;clipout:0 100% 0 0;position:fixed;">
+					Team of The Year 2017
+				</h2>
+				<h2 style="top:510px;left:90px;text-align:initial;font-weight:400;font-style:normal;text-decoration:none;word-wrap:normal;opacity:1;font-family:Gudea;font-size:22px;color:#ffffff;" class="ls-l ls-hide-phone" data-ls="showinfo:1;offsetxin:-100lw;durationin:800;delayin:1700;easingin:easeInOutBack;offsetxout:-100lw;durationout:800;startatout:transitioninend + 4400;easingout:easeInBack;clipout:0 100% 0 0;position:fixed;">
+					Qualified legal advice and solutions in any areas
+				</h2>
+			</div>
+
+			<div class="ls-slide" data-ls="duration:10000;transition2d:70;timeshift:-3200;kenburnsscale:1.2;">
+				<img width="2560" height="700" src="images/layerslider/01_slide-02.jpg" class="ls-bg" alt="">
+				<img width="1610" height="700" src="images/layerslider/slider-overlay-01.png" class="ls-l" alt="" style="top:0;left:-300px;text-align:initial;font-weight:400;font-style:normal;text-decoration:none;wordwrap:false;opacity:1;" data-ls="showinfo:1;offsetxin:-100lw;durationin:1500;delayin:200;easingin:easeInOutBack;fadein:false;clipin:0 100% 0 0;offsetxout:-100lw;durationout:1500;startatout:transitioninend + 5100;easingout:easeInBack;fadeout:false;position:fixed;">
+				<img width="1570" height="700" src="images/layerslider/slider-overlay-02.png" class="ls-l" alt="" style="top:0;left:-300px;text-align:initial;font-weight:400;font-style:normal;text-decoration:none;wordwrap:false;opacity:1;" data-ls="showinfo:1;offsetxin:-100lw;durationin:1500;easingin:easeInOutBack;fadein:false;clipin:0 100% 0 0;offsetxout:-100lw;durationout:1500;startatout:transitioninend + 5000;easingout:easeInBack;fadeout:false;position:fixed;">
+				<h2 style="text-transform:uppercase;top:425px;left:90px;text-align:initial;font-weight:400;font-style:normal;text-decoration:none;wordwrap:false;opacity:1;font-family:Gudea;font-size:36px;color:#ffffff;" class="ls-l" data-ls="showinfo:1;offsetxin:-100lw;durationin:800;delayin:1500;easingin:easeInOutBack;offsetxout:-100lw;durationout:800;startatout:transitioninend + 4600;easingout:easeInBack;clipout:0 100% 0 0;position:fixed;">
+					We provide services<br>
+					in different areas of practice
+				</h2>
+				<h2 style="top:515px;left:90px;text-align:initial;font-weight:400;font-style:normal;text-decoration:none;word-wrap:normal;opacity:1;font-family:Gudea;font-size:22px;color:#ffffff;" class="ls-l ls-hide-phone" data-ls="showinfo:1;offsetxin:-100lw;durationin:800;delayin:1700;easingin:easeInOutBack;offsetxout:-100lw;durationout:800;startatout:transitioninend + 4400;easingout:easeInBack;clipout:0 100% 0 0;position:fixed;">
+					such as industry, real estate, employment, family issues,<br>
+					banking and many more
+				</h2>
+			</div>
+			<div class="ls-slide" data-ls="duration:10000;transition2d:70;timeshift:-3200;kenburnsscale:1.2;">
+				<img width="2560" height="700" src="images/layerslider/01_slide-03.jpg" class="ls-bg" alt="">
+				<img width="1610" height="700" src="images/layerslider/slider-overlay-01.png" class="ls-l" alt="" style="top:0;left:-300px;text-align:initial;font-weight:400;font-style:normal;text-decoration:none;wordwrap:false;opacity:1;" data-ls="showinfo:1;offsetxin:-100lw;durationin:1500;delayin:200;easingin:easeInOutBack;fadein:false;clipin:0 100% 0 0;offsetxout:-100lw;durationout:1500;startatout:transitioninend + 5100;easingout:easeInBack;fadeout:false;position:fixed;">
+				<img width="1570" height="700" src="images/layerslider/slider-overlay-02.png" class="ls-l" alt="" style="top:0;left:-300px;text-align:initial;font-weight:400;font-style:normal;text-decoration:none;wordwrap:false;opacity:1;" data-ls="showinfo:1;offsetxin:-100lw;durationin:1500;easingin:easeInOutBack;fadein:false;clipin:0 100% 0 0;offsetxout:-100lw;durationout:1500;startatout:transitioninend + 5000;easingout:easeInBack;fadeout:false;position:fixed;">
+				<h2 style="text-transform:uppercase;top:510px;left:90px;text-align:initial;font-weight:400;font-style:normal;text-decoration:none;wordwrap:false;opacity:1;font-family:Gudea;font-size:36px;color:#ffffff;" class="ls-l" data-ls="showinfo:1;offsetxin:-100lw;durationin:800;delayin:1500;easingin:easeInOutBack;offsetxout:-100lw;durationout:800;startatout:transitioninend + 4600;easingout:easeInBack;clipout:0 100% 0 0;position:fixed;">
+					in each area of legal practice
+				</h2>
+				<h2 style="top:430px;left:90px;text-align:initial;font-weight:400;font-style:normal;text-decoration:none;word-wrap:normal;opacity:1;font-family:Gudea;font-size:22px;color:#ffffff;" class="ls-l ls-hide-phone" data-ls="showinfo:1;offsetxin:-100lw;durationin:800;delayin:1700;easingin:easeInOutBack;offsetxout:-100lw;durationout:800;startatout:transitioninend + 4400;easingout:easeInBack;clipout:0 100% 0 0;position:fixed;">
+					Legal assistance provided by the best lawyers<br>
+					with many years’ experience
+				</h2>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- SERVICES and QUOTE -->
+	<div class="row-fluid services-links-row">
+		<div class="row">
+			<div class="columns small-12">
+				<div class="row large-collapse services-links">
+					<div class="columns small-12 large-4">
+						<a href="location.html">
+							<div class="services-links__column">
+								<i class="icon-globe-1"></i>
+								<div class="services-links__item">
+									<h2 class="services-links__title">Global Coverage</h2>
+									<p class="services-links__item-content">Lorem ipsum dolor consectetur</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="columns small-12 large-4">
+						<a href="news.html">
+							<div class="services-links__column">
+								<i class="icon-doc-text-inv"></i>
+								<div class="services-links__item">
+									<h2 class="services-links__title">Press Releases</h2>
+									<p class="services-links__item-content">Lorem ipsum dolor consectetur</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="columns small-12 large-4">
+						<a href="careers.html">
+							<div class="services-links__column">
+								<i class="icon-users-3"></i>
+								<div class="services-links__item">
+									<h2 class="services-links__title">Join our Team</h2>
+									<p class="services-links__item-content">Lorem ipsum dolor consectetur</p>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row align-center service-blockquote-wrapper">
+		<!-- Slider main container -->
+		<div class="swiper-container" data-slides-per-view="1" data-loop="true" data-autoplay="3000" data-speed="1000" data-space-between="70" data-slide-effect="fade">
+			<!-- Additional required wrapper -->
+			<div class="swiper-wrapper">
+				<!-- Slides -->
+				<div class="swiper-slide service-blockquote">
+					<blockquote class="blockquote service-blockquote__text">
+						The law established by the Creator, which has existed from the beginning, extends over the whole globe, is everywhere and at all times binding upon mankind.
+					</blockquote>
+					<cite class="service-blockquote__author">Rufus King</cite>
+				</div>
+				<div class="swiper-slide service-blockquote">
+					<blockquote class="blockquote service-blockquote__text">
+						All the great things are simple, and many can be expressed in a single word: freedom, justice, honor, duty, mercy, hope.
+					</blockquote>
+					<cite class="service-blockquote__author">Winston Churchill</cite>
+				</div>
+				<div class="swiper-slide service-blockquote">
+					<blockquote class="blockquote service-blockquote__text">
+						Law is nothing other than a certain ordinance of reason for the common good, promulgated by the person who has the care of the community.
+					</blockquote>
+					<cite class="service-blockquote__author">Thomas Aquinas</cite>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="columns small-12 medium-6 large-3">
+			<div class="service-item">
+				<figure class="effect-apollo">
+					<img src="images/service-item-thumb-1.jpg" alt="">
+					<div class="effect-apollo__overlay"></div>
+				</figure>
+				<h4 class="service-item__title"><a href="location.html">Around the world</a></h4>
+				<p class="service-item__content">Quisque consectetur lacinia felis, posumassa fermentum metus nibh, tincidunt luctus hendrerit, iaculis suspendisse potent</p>
+			</div>
+		</div>
+		<div class="columns small-12 medium-6 large-3">
+			<div class="service-item">
+				<figure class="effect-apollo">
+					<img src="images/service-item-thumb-2.jpg" alt="">
+					<div class="effect-apollo__overlay"></div>
+				</figure>
+				<h4 class="service-item__title"><a href="#">Our Expertise</a></h4>
+				<p class="service-item__content">Quisque consectetur lacinia felis, posumassa fermentum metus nibh, tincidunt luctus hendrerit, iaculis suspendisse potent</p>
+			</div>
+		</div>
+		<div class="columns small-12 medium-6 large-3">
+			<div class="service-item">
+				<figure class="effect-apollo">
+					<img src="images/service-item-thumb-3.jpg" alt="">
+					<div class="effect-apollo__overlay"></div>
+				</figure>
+				<h4 class="service-item__title"><a href="#">Principles & Values</a></h4>
+				<p class="service-item__content">Quisque consectetur lacinia felis, posumassa fermentum metus nibh, tincidunt luctus hendrerit, iaculis suspendisse potent</p>
+			</div>
+		</div>
+		<div class="columns small-12 medium-6 large-3">
+			<div class="service-item">
+				<figure class="effect-apollo">
+					<img src="images/service-item-thumb-4.jpg" alt="">
+					<div class="effect-apollo__overlay"></div>
+				</figure>
+				<h4 class="service-item__title"><a href="#">Careers</a></h4>
+				<p class="service-item__content">Quisque consectetur lacinia felis, posumassa fermentum metus nibh, tincidunt luctus hendrerit, iaculis suspendisse potent</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- EXPERIENCE -->
+	<div class="row">
+		<div class="column">
+			<h2 class="banner-title">EXPERIENCE & PRACTICES</h2>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="small-12 medium-6 large-4 columns tile-col">
+			<section class="tile effect-bubba">
+				<div class="tile__icon icon-money-1"></div>
+				<h3 class="tile__title">BANKING & FINANCE</h3>
+				<p class="tile__description">Posumassa fermentum metus tincidunt luctus hendrerit, iaculis suspendisse esent sit amet rhoncus nisi.</p>
+				<i class="tile__arrow icon-right-4"></i>
+				<a href="single-practice.html" class="tile__link"></a>
+			</section>
+		</div>
+		<div class="small-12 medium-6 large-4 columns tile-col">
+			<section class="tile effect-bubba">
+				<div class="tile__icon icon-suitcase"></div>
+				<h3 class="tile__title">CORPORATE</h3>
+				<p class="tile__description">Posumassa fermentum metus tincidunt luctus hendrerit, iaculis suspendisse esent sit amet rhoncus nisi.</p>
+				<i class="tile__arrow icon-right-4"></i>
+				<a href="single-practice.html" class="tile__link"></a>
+			</section>
+		</div>
+		<div class="small-12 medium-6 large-4 columns tile-col">
+			<section class="tile effect-bubba">
+				<div class="tile__icon icon-leaf-3"></div>
+				<h3 class="tile__title">ENVIRONMENT</h3>
+				<p class="tile__description">Posumassa fermentum metus tincidunt luctus hendrerit, iaculis suspendisse esent sit amet rhoncus nisi.</p>
+				<i class="tile__arrow icon-right-4"></i>
+				<a href="single-practice.html" class="tile__link"></a>
+			</section>
+		</div>
+		<div class="small-12 medium-6 large-4 columns tile-col">
+			<section class="tile effect-bubba">
+				<div class="tile__icon icon-lifebuoy-1"></div>
+				<h3 class="tile__title">INSURANCE</h3>
+				<p class="tile__description">Posumassa fermentum metus tincidunt luctus hendrerit, iaculis suspendisse esent sit amet rhoncus nisi.</p>
+				<i class="tile__arrow icon-right-4"></i>
+				<a href="single-practice.html" class="tile__link"></a>
+			</section>
+		</div>
+		<div class="small-12 medium-6 large-4 columns tile-col">
+			<section class="tile effect-bubba">
+				<div class="tile__icon icon-home-4"></div>
+				<h3 class="tile__title">REAL ESTATE</h3>
+				<p class="tile__description">Posumassa fermentum metus tincidunt luctus hendrerit, iaculis suspendisse esent sit amet rhoncus nisi.</p>
+				<i class="tile__arrow icon-right-4"></i>
+				<a href="single-practice.html" class="tile__link"></a>
+			</section>
+		</div>
+		<div class="small-12 medium-6 large-4 columns tile-col">
+			<section class="tile effect-bubba">
+				<div class="tile__icon icon-umbrella"></div>
+				<h3 class="tile__title">CIVIL LITIGATION</h3>
+				<p class="tile__description">Posumassa fermentum metus tincidunt luctus hendrerit, iaculis suspendisse esent sit amet rhoncus nisi. </p>
+				<i class="tile__arrow icon-right-4"></i>
+				<a href="single-practice.html" class="tile__link"></a>
+			</section>
+		</div>
+	</div>
+	<div class="row align-center">
+		<a href="practice-1.html" class="btn btn--ghost btn--small-medium">View All Practices</a>
+	</div>
+
+
+	<!-- LATEST POSTS -->
+	<div class="row latest-posts-wrapper align-center">
+		<div class="small-12 medium-6 large-4 column">
+			<section class="widget widget-latest-posts-thumb">
+				<h3 class="widget-title">Latest News</h3>
+				<ul>
+					<li>
+						<a href="single_news.html" class="widget-latest-posts-thumb__thumb effect-apollo">
+							<img src="images/latest-post-thumb-1.jpg" alt="">
+							<div class="effect-apollo__overlay"></div>
+						</a>
+						<div class="widget-latest-posts-thumb__item-meta">
+							<a class="widget__date" href="news.html">March 18, 2017</a>
+							<h4><a href="single_news.html">Hong Kong Competition Ordinance enters into effect</a></h4>
+						</div>
+					</li>
+					<li>
+						<a href="single_news.html" class="widget-latest-posts-thumb__thumb effect-apollo">
+							<img src="images/latest-post-thumb-2.jpg" alt="">
+							<div class="effect-apollo__overlay"></div>
+						</a>
+						<div class="widget-latest-posts-thumb__item-meta">
+							<a class="widget__date" href="news.html">March 18, 2017</a>
+							<h4><a href="single_news.html">Managing tax risks in challenging times</a></h4>
+						</div>
+					</li>
+					<li>
+						<a href="single_news.html" class="widget-latest-posts-thumb__thumb effect-apollo">
+							<img src="images/latest-post-thumb-3.jpg" alt="">
+							<div class="effect-apollo__overlay"></div>
+						</a>
+						<div class="widget-latest-posts-thumb__item-meta">
+							<a class="widget__date" href="news.html">March 18, 2017</a>
+							<h4><a href="single_news.html">Top consumer law issues we were talking about in 2015</a></h4>
+						</div>
+					</li>
+				</ul>
+			</section>
+		</div>
+		<div class="small-12 medium-6 large-4 column">
+			<section class="widget widget-latest-posts">
+				<h3 class="widget-title">Latest Publications</h3>
+				<ul>
+					<li>
+						<a class="widget__date" href="news.html">March 18, 2017</a>
+						<h4><a href="single_news.html">European Council adopts Insurance Distribution Directive</a></h4>
+					</li>
+					<li>
+						<a class="widget__date" href="news.html">March 18, 2017</a>
+						<h4><a href="single_news.html">International Arbitration Confirmed as Dominant Form of Global Dispute Resolution</a></h4>
+					</li>
+					<li>
+						<a class="widget__date" href="news.html">March 18, 2017</a>
+						<h4><a href="single_news.html">The Privacy, Data Protection and Cybersecurity Law Review</a></h4>
+					</li>
+					<li>
+						<a class="widget__date" href="news.html">March 18, 2017</a>
+						<h4><a href="single_news.html">Oil and Gas Industry Favours International Arbitration for Dispute Resolution</a></h4>
+					</li>
+					<li>
+						<a class="widget__date" href="news.html">March 18, 2017</a>
+						<h4><a href="single_news.html">Testing The Limits On State Regulation Of Crude Oil By Rail</a></h4>
+					</li>
+				</ul>
+			</section>
+		</div>
+		<div class="small-12 medium-6 large-4 column">
+			<section class="widget widget-blockquote">
+				<h3 class="widget-title">TESTIMONIALS</h3>
+				<div class="swiper-container" data-slides-per-view="1" data-loop="true" data-autoplay="3000" data-speed="3000" data-space-between="70" data-slide-effect="fade">
+					<!-- Additional required wrapper -->
+					<div class="swiper-wrapper">
+						<!-- Slides -->
+						<div class="swiper-slide">
+							<blockquote class="blockquote blockquote--style-1">
+								Amet magna roncus, ultrices purus sed, egestas turpis. Praesent sit amet rhoncus nisi. Etiam tristique velit ut felis ultrices.
+							</blockquote>
+							<div class="blockquote-author">
+								<img src="images/blockquote-author-photo.jpg" alt="" class="blockquote-author__photo">
+								<div class="blockquote-author__info">
+									<cite class="blockquote-author__name">Richard Bennett</cite>
+									<cite class="blockquote-author__position">Chief Executive</cite>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<blockquote class="blockquote blockquote--style-1">
+								Amet magna roncus, ultrices purus sed, egestas turpis. Praesent sit amet rhoncus nisi. Etiam tristique velit ut felis ultrices pulvinar nec consectetur non, tincidunt malesquada lorem.
+							</blockquote>
+							<div class="blockquote-author">
+								<img src="images/blockquote-author-photo-2.jpg" alt="" class="blockquote-author__photo">
+								<div class="blockquote-author__info">
+									<cite class="blockquote-author__name">Richard Bennett</cite>
+									<cite class="blockquote-author__position">Chief Executive</cite>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<blockquote class="blockquote blockquote--style-1">
+								Praesent sit amet rhoncus nisi. Etiam tristique velit ut felis ultrices pulvinar nec consectetur tincidunt malesquada lorem. Phasellus imperdiet risus eget augue fermentum pharetra.
+							</blockquote>
+							<div class="blockquote-author">
+								<img src="images/blockquote-author-photo-4.jpg" alt="" class="blockquote-author__photo">
+								<div class="blockquote-author__info">
+									<cite class="blockquote-author__name">Amy Forbes</cite>
+									<cite class="blockquote-author__position">Partner</cite>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+
+	<!-- FIND PEOPLE - MAP -->
+	<div class="find-people-map">
+
+		<div class="row">
+			<div class="column">
+				<h2 class="banner-title">FIND OUR PEOPLE AND OFFICES</h2>
+			</div>
+		</div>
+
+		<div class="row find-people-map-inner">
+			<div class="small-12 large-8 column">
+				<div class="home-find-people__map" id="js-map"></div>
+			</div>
+			<div class="small-6 large-2 column">
+				<ul class="find-people-map__list">
+					<li><a class="find-people-map__link" href="single-location.html">Abu Dhabi</a></li>
+					<li><a class="find-people-map__link" href="single-location.html">Amsterdam</a></li>
+					<li><a class="find-people-map__link" href="single-location.html">Bangkok</a></li>
+					<li><a class="find-people-map__link" href="single-location.html">Barcelona</a></li>
+					<li><a class="find-people-map__link" href="single-location.html">Beijing</a></li>
+					<li><a class="find-people-map__link" href="single-location.html">Brussels</a></li>
+					<li><a class="find-people-map__link" href="single-location.html">Bucharest</a></li>
+					<li><a class="find-people-map__link" href="single-location.html">Casablanca</a></li>
+					<li><a class="find-people-map__link" href="single-location.html">Doha</a></li>
+					<li><a class="find-people-map__link" href="single-location.html">Dubai</a></li>
+					<li><a class="find-people-map__link" href="single-location.html">Düsseldorf</a></li>
+					<li><a class="find-people-map__link" href="single-location.html">Frankfurt</a></li>
+					<li><a class="find-people-map__link" href="single-location.html">Hong Kong</a></li>
+					<li><a class="find-people-map__link" href="single-location.html">Frankfurt</a></li>
+					<li><a class="find-people-map__link" href="single-location.html">Istanbul</a></li>
+					<li><a class="find-people-map__link" href="single-location.html">Jakarta</a></li>
+					<li><a class="find-people-map__link" href="single-location.html">Luxembourg</a></li>
+				</ul>
+			</div>
+			<div class="small-6 large-2 column">
+				<ul class="find-people-map__list">
+					<li><a class="find-people-map__link" href="single-location.html">Madrid</a></li>
+					<li><a class="find-people-map__link" href="single-location.html">Moscow</a></li>
+					<li><a class="find-people-map__link" href="single-location.html">Munich</a></li>
+					<li><a class="find-people-map__link" href="single-location.html">New York</a></li>
+					<li><a class="find-people-map__link" href="single-location.html">Paris</a></li>
+					<li><a class="find-people-map__link" href="single-location.html">Perth</a></li>
+					<li><a class="find-people-map__link" href="single-location.html">Prague</a></li>
+					<li><a class="find-people-map__link" href="single-location.html">Riyadh</a></li>
+					<li><a class="find-people-map__link" href="single-location.html">Rome</a></li>
+					<li><a class="find-people-map__link" href="single-location.html">São Paulo</a></li>
+					<li><a class="find-people-map__link" href="single-location.html">Seoul</a></li>
+					<li><a class="find-people-map__link" href="single-location.html">Shanghai</a></li>
+					<li><a class="find-people-map__link" href="single-location.html">Singapore</a></li>
+					<li><a class="find-people-map__link" href="single-location.html">Sydney</a></li>
+					<li><a class="find-people-map__link" href="single-location.html">Tokyo</a></li>
+					<li><a class="find-people-map__link" href="single-location.html">Warsaw</a></li>
+					<li><a class="find-people-map__link" href="single-location.html">Washington</a></li>
+				</ul>
+			</div>
+
+		</div>
+
+	</div>
+
+	<!-- OUR PEOPLE -->
+	<div class="row our-people-wrapper">
+		<div class="small-12 large-8 column">
+			<div class="row">
+				<div class="column">
+					<h3 class="block-title">Our People in Focus</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="small-6 medium-3 column bg-1">
+
+
+
+					<div class="team-person">
+						<div class="team-person__img effect-apollo">
+							<img src="images/team-person-1.jpg" alt="team-person" />
+							<div class="effect-apollo__overlay"></div>
+						</div>
+						<h5 class="team-person__name">John Bennett</h5>
+						<p class="team-person__position">Senior Associate, New York</p>
+						<a href="single-attorney-people.html" class="team-person__link">View profile</a>
+					</div>
+				</div>
+				<div class="small-6 medium-3 column bg-1">
+
+
+
+					<div class="team-person">
+						<div class="team-person__img effect-apollo">
+							<img src="images/team-person-2.jpg" alt="team-person" />
+							<div class="effect-apollo__overlay"></div>
+						</div>
+						<h5 class="team-person__name">Stephan Morris</h5>
+						<p class="team-person__position">Associate, Berlin</p>
+						<a href="single-attorney-people.html" class="team-person__link">View profile</a>
+					</div>
+				</div>
+				<div class="small-6 medium-3 column bg-1">
+
+
+
+					<div class="team-person">
+						<div class="team-person__img effect-apollo">
+							<img src="images/team-person-3.jpg" alt="team-person" />
+							<div class="effect-apollo__overlay"></div>
+						</div>
+						<h5 class="team-person__name">Mike Stewart</h5>
+						<p class="team-person__position">Partner, Amsterdam</p>
+						<a href="single-attorney-people.html" class="team-person__link">View profile</a>
+					</div>
+				</div>
+				<div class="small-6 medium-3 column bg-1">
+
+
+
+					<div class="team-person">
+						<div class="team-person__img effect-apollo">
+							<img src="images/team-person-4.jpg" alt="team-person" />
+							<div class="effect-apollo__overlay"></div>
+						</div>
+						<h5 class="team-person__name">Isabel Corney</h5>
+						<p class="team-person__position">Managing Partner, London</p>
+						<a href="single-attorney-people.html" class="team-person__link">View profile</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="small-12 large-4 column">
+			<div class="row">
+				<div class="column">
+					<h3 class="block-title">Find a Lawyer</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="column">
+					<form class="search-form">
+						<label>Name</label>
+						<input type="text" name="name" value="">
+						<label>Sectors</label>
+						<select name="sectors">
+    <option disabled selected value="">&nbsp;</option>
+    <option value="option1">option-1</option>
+    <option value="option2">option-2</option>
+    <option value="option3">option-3</option>
+  </select>
+						<label>Legal areas</label>
+						<select name="legal">
+    <option disabled selected value="">&nbsp;</option>
+    <option value="option1">option-1</option>
+    <option value="option2">option-2</option>
+    <option value="option3">option-3</option>
+  </select>
+						<label>Offices</label>
+						<select name="ofices">
+    <option disabled selected value="">&nbsp;</option>
+    <option value="option1">option-1</option>
+    <option value="option2">option-2</option>
+    <option value="option3">option-3</option>
+  </select>
+						<button class="btn btn--small search-form__submit" type="submit" name="name">Search</button>
+					</form>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- GET A QUOTE -->
+	<div class="get-a-quote">
+		<div class="row align-center">
+			<div class="column small-12 medium-expand">
+				<h3 class="get-a-quote__text">Looking for a First-Class Business Plan Consultant?</h3>
+			</div>
+			<div class="column small-12 shrink">
+				<a href="contact.html" class="btn get-a-quote__link">Get a Quote</a>
+			</div>
+		</div>
+	</div>
+
+	<!-- FOOTER -->
+	<footer class="main-footer dark-section">
+		<div class="row row-widgets">
+			<div class="columns small-12 medium-6 large-3">
+				<section class="widget widget-address">
+					<h3 class="widget-title">Contacts</h3>
+					<p>The 2nd Building, 27 Seventh Avenue, New York, 10787, United States</p>
+					<p class="widget-address__info icon-phone-3">+44 12 3456 7788</p>
+					<p class="widget-address__info icon-mail-3"><a href="mailto:lawyerburo@law.com">lawyerburo@law.com</a></p>
+				</section>
+				<section class="widget widget-subscribe">
+					<h3 class="widget-title">KEEP IN TOUCH WITH US</h3>
+					<p>Information about current events related to our company</p>
+					<form>
+						<input type="text" placeholder="Enter your e-mail">
+						<button type="submit" class="widget-subscribe__submit icon-paper-plane"></button>
+					</form>
+				</section>
+
+			</div>
+			<div class="columns small-12 medium-6 large-3">
+				<section class="widget widget_pages">
+					<h3 class="widget-title">EXPLORE OUR SITE</h3>
+					<ul>
+						<li><a href="people.html">People</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="location.html">Locations</a></li>
+						<li><a href="careers.html">Careers</a></li>
+						<li><a href="#">Publications</a></li>
+						<li><a href="news.html">News</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+					</ul>
+				</section>
+			</div>
+			<div class="columns small-12 medium-6 large-3">
+				<section class="widget widget_categories">
+					<h3 class="widget-title">PRACTICE AREAS</h3>
+					<ul>
+						<li class="cat-item">
+							<a href="single-practice.html">Banking & Finance</a>
+						</li>
+						<li class="cat-item">
+							<a href="single-practice.html">Corporate</a>
+						</li>
+						<li class="cat-item">
+							<a href="single-practice.html">Civil Litigation</a>
+						</li>
+						<li class="cat-item">
+							<a href="single-practice.html">Data Protection & Privacy</a>
+						</li>
+						<li class="cat-item">
+							<a href="single-practice.html">Insurance</a>
+						</li>
+						<li class="cat-item">
+							<a href="single-practice.html">Real estate</a>
+						</li>
+						<li class="cat-item">
+							<a href="single-practice.html">Tax, Employment, Pensions</a>
+						</li>
+						<li class="cat-item">
+							<a href="single-practice.html">Environment</a>
+						</li>
+					</ul>
+				</section>
+			</div>
+			<div class="columns small-12 medium-6 large-3">
+				<section class="widget widget-latest-posts">
+					<h3 class="widget-title">RECENT POSTS</h3>
+					<ul>
+						<li>
+							<a class="widget__date" href="news.html">March 18, 2017</a>
+							<h4><a href="single_news.html">America's Best Corporate Law Firms</a></h4>
+						</li>
+						<li>
+							<a class="widget__date" href="news.html">March 18, 2017</a>
+							<h4><a href="single_news.html">Managing tax risks in challenging times</a></h4>
+						</li>
+						<li>
+							<a class="widget__date" href="news.html">March 18, 2017</a>
+							<h4><a href="single_news.html">Top consumer law issues we were talking about in 2015</a></h4>
+						</li>
+					</ul>
+				</section>
+			</div>
+		</div>
+		<div class="row">
+			<div class="columns small-12">
+				<div class="row align-justify align-middle logo-socials-footer small-collapse">
+					<div class="columns small-12 medium-expand">
+						<div class="logo">
+							<a href="index.html">
+								<img src="images/logo-footer.png" alt="Logo">
+							</a>
+						</div>
+					</div>
+					<div class="columns small-12 shrink">
+						<div class="socials">
+							<a href="#"><i class="icon-twitter"></i></a>
+							<a href="#"><i class="icon-facebook"></i></a>
+							<a href="#"><i class="icon-rss-1"></i></a>
+							<a href="#"><i class="icon-linkedin"></i></a>
+							<a href="#"><i class="icon-pinterest-4"></i></a>
+							<a href="#"><i class="icon-gplus-1"></i></a>
+							<a href="#"><i class="icon-instagram"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="columns small-12">
+				<div class="row align-justify align-middle copyright small-collapse">
+					<div class="columns small-12 medium-expand">
+						Copyright © 2018. ThemeMakers. All rights reserved
+					</div>
+					<div class="columns small-12 shrink">
+						Developed by <a href="https://themeforest.net/user/thememakers/portfolio">ThemeMakers</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<script src="js/jquery.js"></script>
+	<script src="js/swiper.jquery.min.js"></script>
+	<script src="js/imagesloaded.pkgd.min.js"></script>
+	<script src="js/isotope.pkgd.min.js"></script>
+	<script src="js/jquery.matchHeight.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmb9paOeg40eUIZzT4DIkTolSYaU3X-qw"></script>
+	<script src="js/main.js"></script>
+
+	<!-- External libraries: jQuery & GreenSock -->
+	<script src="layerslider/js/jquery.js"></script>
+	<script src="layerslider/js/greensock.js"></script>
+
+	<!-- LayerSlider script files -->
+	<script src="layerslider/js/layerslider.transitions.js"></script>
+	<script src="layerslider/js/layerslider.kreaturamedia.jquery.js"></script>
+	<!-- Initializing the slider -->
+	<script>
+		jQuery("#layerslider").layerSlider({
+			type: 'fullwidth',
+			allowFullscreen: false,
+			cycles: 3,
+			navStartStop: false,
+			navButtons: false,
+			popupWidth: 640,
+			popupHeight: 360,
+			skinsPath: 'layerslider/skins/',
+			hideOnMobile: true
+		});
+	</script>
+</body>
+
+</html>
