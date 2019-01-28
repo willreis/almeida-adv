@@ -23,23 +23,22 @@
 					<!-- Slides -->
 					<div class="swiper-slide service-blockquote">
 						<blockquote class="blockquote service-blockquote__text">
-							The law established by the Creator, which has existed from the beginning, extends over the whole globe, is everywhere and at all times binding upon mankind.
-						</blockquote>
-						<cite class="service-blockquote__author">Rufus King</cite>
-					</div>
-					<div class="swiper-slide service-blockquote">
-						<blockquote class="blockquote service-blockquote__text">
-							All the great things are simple, and many can be expressed in a single word: freedom, justice, honor, duty, mercy, hope.
+							Todas as grandes coisas são simples e muitas podem ser expressas em uma única palavra: liberdade, justiça, honra, dever, misericórdia, esperança.
 						</blockquote>
 						<cite class="service-blockquote__author">Winston Churchill</cite>
 					</div>
 					<div class="swiper-slide service-blockquote">
 						<blockquote class="blockquote service-blockquote__text">
-							Law is nothing other than a certain ordinance of reason for the common good, promulgated by the person who has the care of the community.
+							Lei nada mais é do que uma certa ordenança de razão para o bem comum, promulgada pela pessoa que tem o cuidado da comunidade.
 						</blockquote>
-						<cite class="service-blockquote__author">Thomas Aquinas</cite>
+						<cite class="service-blockquote__author">Tomás de Aquino</cite>
 					</div>
 				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<h2 class="banner-title">ÁREAS DE ATUAÇÃO</h2>
 			</div>
 		</div>
 		<div class="row">
@@ -49,8 +48,8 @@
 						<img src="images/service-item-thumb-1.jpg" alt="">
 						<div class="effect-apollo__overlay"></div>
 					</figure>
-					<h4 class="service-item__title"><a href="location.html">Around the world</a></h4>
-					<p class="service-item__content">Quisque consectetur lacinia felis, posumassa fermentum metus nibh, tincidunt luctus hendrerit, iaculis suspendisse potent</p>
+					<h4 class="service-item__title"><a href="location.html">Cobranças</a></h4>
+					<p class="service-item__content">Assessoria em cobranças, especializada em execuções de títulos extrajudiciais e falência.</p>
 				</div>
 			</div>
 			<div class="columns small-12 medium-6 large-3">
@@ -59,8 +58,8 @@
 						<img src="images/service-item-thumb-2.jpg" alt="">
 						<div class="effect-apollo__overlay"></div>
 					</figure>
-					<h4 class="service-item__title"><a href="#">Our Expertise</a></h4>
-					<p class="service-item__content">Quisque consectetur lacinia felis, posumassa fermentum metus nibh, tincidunt luctus hendrerit, iaculis suspendisse potent</p>
+					<h4 class="service-item__title"><a href="#">Direito Empresarial</a></h4>
+					<p class="service-item__content">Assessoria jurídica consultiva, recuperação de crédito, contratos no geral.</p>
 				</div>
 			</div>
 			<div class="columns small-12 medium-6 large-3">
@@ -69,8 +68,8 @@
 						<img src="images/service-item-thumb-3.jpg" alt="">
 						<div class="effect-apollo__overlay"></div>
 					</figure>
-					<h4 class="service-item__title"><a href="#">Principles & Values</a></h4>
-					<p class="service-item__content">Quisque consectetur lacinia felis, posumassa fermentum metus nibh, tincidunt luctus hendrerit, iaculis suspendisse potent</p>
+					<h4 class="service-item__title"><a href="#">Direito Cível</a></h4>
+					<p class="service-item__content">Família (divórcio, regime de bens, inventário, adoção, sucessões), responsabilidade civil (indenização material e moral), contratos, locações e outros.</p>
 				</div>
 			</div>
 			<div class="columns small-12 medium-6 large-3">
@@ -79,77 +78,16 @@
 						<img src="images/service-item-thumb-4.jpg" alt="">
 						<div class="effect-apollo__overlay"></div>
 					</figure>
-					<h4 class="service-item__title"><a href="#">Careers</a></h4>
-					<p class="service-item__content">Quisque consectetur lacinia felis, posumassa fermentum metus nibh, tincidunt luctus hendrerit, iaculis suspendisse potent</p>
+					<h4 class="service-item__title"><a href="#">Direito do Consumidor</a></h4>
+					<p class="service-item__content">Prática abusiva, cobranças indevidas, venda casada, responsabilidade em geral.</p>
 				</div>
 			</div>
 		</div>
+	
 
-		<!-- EXPERIENCE -->
-		<div class="row">
-			<div class="column">
-				<h2 class="banner-title">EXPERIENCE & PRACTICES</h2>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="small-12 medium-6 large-4 columns tile-col">
-				<section class="tile effect-bubba">
-					<div class="tile__icon icon-money-1"></div>
-					<h3 class="tile__title">BANKING & FINANCE</h3>
-					<p class="tile__description">Posumassa fermentum metus tincidunt luctus hendrerit, iaculis suspendisse esent sit amet rhoncus nisi.</p>
-					<i class="tile__arrow icon-right-4"></i>
-					<a href="single-practice.html" class="tile__link"></a>
-				</section>
-			</div>
-			<div class="small-12 medium-6 large-4 columns tile-col">
-				<section class="tile effect-bubba">
-					<div class="tile__icon icon-suitcase"></div>
-					<h3 class="tile__title">CORPORATE</h3>
-					<p class="tile__description">Posumassa fermentum metus tincidunt luctus hendrerit, iaculis suspendisse esent sit amet rhoncus nisi.</p>
-					<i class="tile__arrow icon-right-4"></i>
-					<a href="single-practice.html" class="tile__link"></a>
-				</section>
-			</div>
-			<div class="small-12 medium-6 large-4 columns tile-col">
-				<section class="tile effect-bubba">
-					<div class="tile__icon icon-leaf-3"></div>
-					<h3 class="tile__title">ENVIRONMENT</h3>
-					<p class="tile__description">Posumassa fermentum metus tincidunt luctus hendrerit, iaculis suspendisse esent sit amet rhoncus nisi.</p>
-					<i class="tile__arrow icon-right-4"></i>
-					<a href="single-practice.html" class="tile__link"></a>
-				</section>
-			</div>
-			<div class="small-12 medium-6 large-4 columns tile-col">
-				<section class="tile effect-bubba">
-					<div class="tile__icon icon-lifebuoy-1"></div>
-					<h3 class="tile__title">INSURANCE</h3>
-					<p class="tile__description">Posumassa fermentum metus tincidunt luctus hendrerit, iaculis suspendisse esent sit amet rhoncus nisi.</p>
-					<i class="tile__arrow icon-right-4"></i>
-					<a href="single-practice.html" class="tile__link"></a>
-				</section>
-			</div>
-			<div class="small-12 medium-6 large-4 columns tile-col">
-				<section class="tile effect-bubba">
-					<div class="tile__icon icon-home-4"></div>
-					<h3 class="tile__title">REAL ESTATE</h3>
-					<p class="tile__description">Posumassa fermentum metus tincidunt luctus hendrerit, iaculis suspendisse esent sit amet rhoncus nisi.</p>
-					<i class="tile__arrow icon-right-4"></i>
-					<a href="single-practice.html" class="tile__link"></a>
-				</section>
-			</div>
-			<div class="small-12 medium-6 large-4 columns tile-col">
-				<section class="tile effect-bubba">
-					<div class="tile__icon icon-umbrella"></div>
-					<h3 class="tile__title">CIVIL LITIGATION</h3>
-					<p class="tile__description">Posumassa fermentum metus tincidunt luctus hendrerit, iaculis suspendisse esent sit amet rhoncus nisi. </p>
-					<i class="tile__arrow icon-right-4"></i>
-					<a href="single-practice.html" class="tile__link"></a>
-				</section>
-			</div>
-		</div>
-		<div class="row align-center">
-			<a href="practice-1.html" class="btn btn--ghost btn--small-medium">View All Practices</a>
+		
+		<div class="row align-center" style="margin-top:50px; margin-bottom:50px;">
+			<a href="servicos.php" class="btn btn--ghost btn--small-medium">Confira mais</a>
 		</div>
 		<!--/CONTEÚDO-->
 

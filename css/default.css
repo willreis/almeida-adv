@@ -1,3 +1,11 @@
 div#layerslider {
-    /*height: 480px!important;*/
+    height: 425px!important;
+}
+h2.ls-layer {
+    top: 40px!important;
+    padding-top: 20px;
+}
+.ls-wrapper.ls-in-out {
+    top: 0px!important;
+    
 }

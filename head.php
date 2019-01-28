@@ -1,3 +1,4 @@
+<?php $paginaCorrente = basename($_SERVER['SCRIPT_NAME']);?>
 <head>
 	<meta charset="utf-8">
 	<meta name="apple-mobile-web-app-capable" content="yes">
@@ -18,7 +19,6 @@
 	<link rel="stylesheet" href="css/main.css">
 	<!-- LayerSlider stylesheet -->
 	<link rel="stylesheet" href="layerslider/css/layerslider.css" type="text/css">
-	<!-- CSS MODIFI -->
 	
 	<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" href="images/favicon/favicon-32x32.png" sizes="32x32">
@@ -27,6 +27,9 @@
 	<link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg">
 	<link rel="shortcut icon" href="images/favicon/favicon.ico">
 	<link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	
+	
 	<meta name="msapplication-TileColor" content="#ffc40d">
 	<meta name="msapplication-TileImage" content="images/favicon/mstile-144x144.png">
 	<meta name="msapplication-config" content="images/favicon/browserconfig.xml">

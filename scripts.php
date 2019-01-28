@@ -5,6 +5,9 @@
 <script src="js/jquery.matchHeight.js"></script>
 <script src="js/jquery.magnific-popup.min.js"></script>
 <script src="js/main.js"></script>
+<script src="js/get-date.js"></script>
+
+
 
 <!-- External libraries: jQuery & GreenSock -->
 <script src="layerslider/js/jquery.js"></script>
@@ -14,6 +17,8 @@
 <script src="layerslider/js/layerslider.transitions.js"></script>
 <script src="layerslider/js/layerslider.kreaturamedia.jquery.js"></script>
 <!-- Initializing the slider -->
+
+
 <script>
 	jQuery("#layerslider").layerSlider({
 		type: 'fullwidth',

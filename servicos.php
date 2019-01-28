@@ -35,7 +35,7 @@
 					<h3 class="tile__title">BANKING & FINANCE</h3>
 					<p class="tile__description">Posumassa fermentum metus tincidunt luctus hendrerit, iaculis suspendisse esent sit amet rhoncus nisi. </p>
 					<i class="tile__arrow icon-right-4"></i>
-					<a href="single-practice.html" class="tile__link"></a>
+					<a href="servicos.php" class="tile__link"></a>
 				</section>
 			</div>
 			<div class="small-12 medium-6 large-4 columns tile-col">
@@ -44,7 +44,7 @@
 					<h3 class="tile__title">CORPORATE</h3>
 					<p class="tile__description">Posumassa fermentum metus tincidunt luctus hendrerit, iaculis suspendisse esent sit amet rhoncus nisi. </p>
 					<i class="tile__arrow icon-right-4"></i>
-					<a href="single-practice.html" class="tile__link"></a>
+					<a href="servicos.php" class="tile__link"></a>
 				</section>
 			</div>
 			<div class="small-12 medium-6 large-4 columns tile-col">
@@ -53,7 +53,7 @@
 					<h3 class="tile__title">ENVIRONMENT</h3>
 					<p class="tile__description">Posumassa fermentum metus tincidunt luctus hendrerit, iaculis suspendisse esent sit amet rhoncus nisi.</p>
 					<i class="tile__arrow icon-right-4"></i>
-					<a href="single-practice.html" class="tile__link"></a>
+					<a href="servicos.php" class="tile__link"></a>
 				</section>
 			</div>
 			<div class="small-12 medium-6 large-4 columns tile-col">
@@ -62,7 +62,7 @@
 					<h3 class="tile__title">INSURANCE</h3>
 					<p class="tile__description">Posumassa fermentum metus tincidunt luctus hendrerit, iaculis suspendisse esent sit amet rhoncus nisi. </p>
 					<i class="tile__arrow icon-right-4"></i>
-					<a href="single-practice.html" class="tile__link"></a>
+					<a href="servicos.php" class="tile__link"></a>
 				</section>
 			</div>
 			<div class="small-12 medium-6 large-4 columns tile-col">
@@ -71,7 +71,7 @@
 					<h3 class="tile__title">REAL ESTATE</h3>
 					<p class="tile__description">Posumassa fermentum metus tincidunt luctus hendrerit, iaculis suspendisse esent sit amet rhoncus nisi. </p>
 					<i class="tile__arrow icon-right-4"></i>
-					<a href="single-practice.html" class="tile__link"></a>
+					<a href="servicos.php" class="tile__link"></a>
 				</section>
 			</div>
 			<div class="small-12 medium-6 large-4 columns tile-col">
@@ -80,7 +80,7 @@
 					<h3 class="tile__title">CIVIL LITIGATION</h3>
 					<p class="tile__description">Posumassa fermentum metus tincidunt luctus hendrerit, iaculis suspendisse esent sit amet rhoncus nisi. </p>
 					<i class="tile__arrow icon-right-4"></i>
-					<a href="single-practice.html" class="tile__link"></a>
+					<a href="servicos.php" class="tile__link"></a>
 				</section>
 			</div>
 			<div class="small-12 medium-6 large-4 columns tile-col">
@@ -89,7 +89,7 @@
 					<h3 class="tile__title">Data Protection & Privacy</h3>
 					<p class="tile__description">Posumassa fermentum metus tincidunt luctus hendrerit, iaculis suspendisse esent sit amet rhoncus nisi. </p>
 					<i class="tile__arrow icon-right-4"></i>
-					<a href="single-practice.html" class="tile__link"></a>
+					<a href="servicos.php" class="tile__link"></a>
 				</section>
 			</div>
 			<div class="small-12 medium-6 large-4 columns tile-col">
@@ -98,7 +98,7 @@
 					<h3 class="tile__title">Tax, Employment, Pensions</h3>
 					<p class="tile__description">Posumassa fermentum metus tincidunt luctus hendrerit, iaculis suspendisse esent sit amet rhoncus nisi. </p>
 					<i class="tile__arrow icon-right-4"></i>
-					<a href="single-practice.html" class="tile__link"></a>
+					<a href="servicos.php" class="tile__link"></a>
 				</section>
 			</div>
 			<div class="small-12 medium-6 large-4 columns tile-col">
@@ -107,7 +107,7 @@
 					<h3 class="tile__title">Life Sciences & Healthcare</h3>
 					<p class="tile__description">Posumassa fermentum metus tincidunt luctus hendrerit, iaculis suspendisse esent sit amet rhoncus nisi. </p>
 					<i class="tile__arrow icon-right-4"></i>
-					<a href="single-practice.html" class="tile__link"></a>
+					<a href="servicos.php" class="tile__link"></a>
 				</section>
 			</div>
 		</div>

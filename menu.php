@@ -6,7 +6,7 @@
 					<div class="logo">
 						<a href="index.html">
 
-							<img src="images/logo.png" alt="Logo">
+							<img style="width: 200px;" src="images/logo/logo-almeida.png" alt="Almeida advogados assossiados">
 
 						</a>
 					</div>
@@ -25,16 +25,16 @@
 					<div class="columns small-order-2 large-order-1 menu-col">
 						<nav>
 							<ul class="menu main-menu">
-								<li class="menu-item current-menu-parent menu-item-has-children">
+								<li <?php if($paginaCorrente == 'index.php') {echo 'class="current-menu-parent menu-item menu-item-has-children"';} ?> class="menu-item menu-item-has-children">
 									<a href="index.php">Home</a>
 								</li>
-								<li class="menu-item">
+								<li <?php if($paginaCorrente == 'sobre-nos.php') {echo 'class="current-menu-parent menu-item menu-item-has-children"';} ?> class="menu-item">
 									<a href="sobre-nos.php">Sobre Nós</a>
 								</li>
-								<li class="menu-item">
+								<li <?php if($paginaCorrente == 'servicos.php') {echo 'class="current-menu-parent menu-item menu-item-has-children"';} ?> class="menu-item">
 									<a href="servicos.php">Serviços</a>
 								</li>
-								<li class="menu-item">
+								<li <?php if($paginaCorrente == 'contato.php') {echo 'class="current-menu-parent menu-item menu-item-has-children"';} ?> class="menu-item">
 									<a href="contato.php">Contato</a>
 								</li>
 							</ul>
