@@ -1,3 +1,6 @@
+a {
+    color: #938461; 
+}
 div#layerslider {
     height: 425px!important;
 }
@@ -8,4 +11,43 @@ h2.ls-layer {
 .ls-wrapper.ls-in-out {
     top: 0px!important;
     
+}
+.tile {
+    background-color: #dcdcdc!important;
+}
+.get-a-quote {
+    background-color: #938461;
+}
+.get-a-quote__link {
+    color: #938461;
+}
+.main-menu>li.current-menu-parent>a, .main-menu>li.current-menu-item>a {
+    background-color: #938461;
+}
+.main-menu>li>a:hover {
+    background-color: #938461;
+}
+.main-footer a {
+    color: #938461;
+}
+.blockquote::before, blockquote::before{
+    color: #938461;
+}
+.blockquote::before, blockquote::after{
+    color: #938461;
+}
+.service-blockquote__author{
+    color: #938461;
+}
+.btn--ghost {
+    color: #938461; 
+}
+
+.widget-address a.widget-address__link {
+    color: #938461; 
+}
+.btn.btn-enviar{
+    background-color: #938461;
+    border:1px solid #938461;
+    box-shadow:none;
 }

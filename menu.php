@@ -13,7 +13,7 @@
 				</div>
 				<div class="columns small-12 shrink">
 					<div class="contact-phone">
-						<i class="icon-phone-3"></i>Entre em contato: <span>11 4444-5555</span>
+						<i class="icon-phone-3"></i>Entre em contato: <span>(11) 4023-3376</span>
 					</div>
 				</div>
 			</div>

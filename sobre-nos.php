@@ -22,7 +22,7 @@
 		<!--CONTEÚDO-->
 		
 		<!-- ABOUT US -->
-		<div class="row-fluid about-article-fluid">
+		<div class="row-fluid about-article-fluid" style="padding-bottom: 50px;">
 			<div class="columns">
 				<article class="row about-article">
 					<div class="columns small-12 medium-6">
@@ -40,18 +40,6 @@
 					<div class="columns small-12 medium-6 ">
 						<div class="video-banner">
 							<img src="images/about-video-bg.jpg" alt="" class="s-img-switch">
-							<button class="play-btn">
-							<svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" class="play-btn__svg">
-								<g transform="translate(2.000000, 2.000000)" fill="transparent">
-									<path d="M20,10 C20,4.4775 15.5228125,0 10,0 C4.4771875,0 0,4.4775 0,10 C0,15.5228125 4.4771875,20 10,20 C15.5228125,20 20,15.5228125 20,10"></path>
-									<path d="M7.428625,6.04975 C7.428625,5.71525 7.795,5.50975 8.08075,5.684125 L14.54425,9.634375 C14.818,9.80125 14.818,10.198375 14.54425,10.365625 L8.08075,14.315875 C7.795,14.49025 7.428625,14.28475 7.428625,13.95025 L7.428625,6.04975 Z" fill="#fff" class="style-scope iron-icon"></path>
-								</g>
-							</svg>
-						</button>
-							<div class="video-popup">
-								<span class="close-btn"></span>
-								<iframe width="1200" height="675" src="about:blank" data-src="https://www.youtube.com/embed/wJF5NXygL4k?rel=0&amp;autoplay=1&amp;controls=0&amp;loop=1&amp;showinfo=0"></iframe>
-							</div>
 						</div>
 					</div>
 					
@@ -143,6 +131,96 @@
 				<a href="servicos.php" class="btn btn--ghost btn--small-medium">Confira mais</a>
 			</div>
 		</div>
+		<div class="row">
+			<div class="columns">
+				<hr class="separator separator--solid">
+			</div>
+		</div>
+		<div class="row">
+			<div class="columns">
+				<h2 style="text-align:center">Nosso Escritório</h2>
+			</div>
+		</div>
+		<div class="row">
+		<div class="columns">
+			<div class="gallery-container" style="margin-bottom:0; padding-bottom:0">
+				<div class="isotope-container isotope-container--4cols" >
+					<div class="grid-sizer"></div>
+					<div class="gutter-sizer"></div>
+					<figure class="gallery-item isf-year-2013 effect-bubba">
+						<a href="images/imagens/1.jpg">
+							<div class="gallery-item__img">
+								<img src="images/imagens/1.jpg" alt="" class="s-img-switch">
+							</div>
+							<div class="caption">
+								<h3 class="gallery-item__title">Advogados</h3>
+							</div>
+						</a>
+					</figure>
+					<figure class="gallery-item isf-year-2017 effect-bubba">
+						<a href="images/imagens/2.jpg">
+							<div class="gallery-item__img">
+								<img src="images/imagens/2.jpg" alt="" class="s-img-switch">
+							</div>
+							<div class="caption">
+								<h3 class="gallery-item__title">Nosso<br>Escritório</h3>
+							</div>
+						</a>
+					</figure>
+					<figure class="gallery-item isf-year-2014 effect-bubba">
+						<a href="images/imagens/3.jpg">
+							<div class="gallery-item__img">
+								<img src="images/imagens/3.jpg" alt="" class="s-img-switch">
+							</div>
+							<div class="caption">
+								<h3 class="gallery-item__title">Nosso<br>Escritório</h3>
+							</div>
+						</a>
+					</figure>
+					<figure class="gallery-item isf-year-2014 effect-bubba">
+						<a href="images/imagens/4.jpg">
+							<div class="gallery-item__img">
+								<img src="images/imagens/4.jpg" alt="" class="s-img-switch">
+							</div>
+							<div class="caption">
+								<h3 class="gallery-item__title">Nosso<br>Escritório</h3>
+							</div>
+						</a>
+					</figure>
+					<figure class="gallery-item isf-year-2015 effect-bubba">
+						<a href="images/imagens/5.jpg">
+							<div class="gallery-item__img">
+								<img src="images/imagens/5.jpg" alt="" class="s-img-switch">
+							</div>
+							<div class="caption">
+								<h3 class="gallery-item__title">Nosso<br>Escritório</h3>
+							</div>
+						</a>
+					</figure>
+					<figure class="gallery-item isf-year-2017 effect-bubba">
+						<a href="images/imagens/6.jpg">
+							<div class="gallery-item__img">
+								<img src="images/imagens/6.jpg" alt="" class="s-img-switch">
+							</div>
+							<div class="caption">
+								<h3 class="gallery-item__title">Nosso<br>Escritório</h3>
+							</div>
+						</a>
+					</figure>
+					<figure class="gallery-item isf-year-2015 effect-bubba">
+						<a href="images/imagens/7.jpg">
+							<div class="gallery-item__img">
+								<img src="images/imagens/7.jpg" alt="" class="s-img-switch">
+							</div>
+							<div class="caption">
+								<h3 class="gallery-item__title">Nosso<br>Escritório</h3>
+							</div>
+						</a>
+					</figure>
+				</div>
+			</div>
+		</div>
+	</div>
 		
 		<!--/CONTEÚDO-->
 

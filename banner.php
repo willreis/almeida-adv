@@ -3,7 +3,7 @@
 	<div class="slider-1">
 		<div id="layerslider" class="ls-wp-container fitvidsignore" style="width:1180px;height:425px;margin:0 auto;margin-bottom: 0;z-index:5;">
 			<div class="ls-slide" data-ls="duration:10000;transition2d:70;timeshift:-3200;kenburnsscale:1.2;">
-				<img width="2560" height="425" src="images/layerslider/01_slide-01.jpg" class="ls-bg" alt="slide-1">
+				<img height="425" src="images/banner/banner1.png" class="ls-bg" alt="slide-1">
 				<img width="1610" height="425" src="images/layerslider/slider-overlay-01.png" class="ls-l" alt="" style="top:0;left:-300px;text-align:initial;font-weight:400;font-style:normal;text-decoration:none;wordwrap:false;opacity:1;" data-ls="showinfo:1;offsetxin:-100lw;durationin:1500;delayin:200;easingin:easeInOutBack;fadein:false;clipin:0 100% 0 0;offsetxout:-100lw;durationout:1500;startatout:transitioninend + 5100;easingout:easeInBack;fadeout:false;position:fixed;">
 				<img width="1570" height="425" src="images/layerslider/slider-overlay-02.png" class="ls-l" alt="" style="top:0;left:-300px;text-align:initial;font-weight:400;font-style:normal;text-decoration:none;wordwrap:false;opacity:1;"
 					data-ls="showinfo:1;offsetxin:-100lw;durationin:1500;easingin:easeInOutBack;fadein:false;clipin:0 100% 0 0;offsetxout:-100lw;durationout:1500;startatout:transitioninend + 5000;easingout:easeInBack;fadeout:false;position:fixed;">
@@ -16,7 +16,7 @@
 			</div>
 
 			<div class="ls-slide" data-ls="duration:10000;transition2d:70;timeshift:-3200;kenburnsscale:1.2;">
-				<img width="2560" height="425" src="images/layerslider/01_slide-02.jpg" class="ls-bg" alt="">
+				<img height="425" src="images/layerslider/01_slide-02.jpg" class="ls-bg" alt="">
 				<img width="1610" height="425" src="images/layerslider/slider-overlay-01.png" class="ls-l" alt="" style="top:0;left:-300px;text-align:initial;font-weight:400;font-style:normal;text-decoration:none;wordwrap:false;opacity:1;" data-ls="showinfo:1;offsetxin:-100lw;durationin:1500;delayin:200;easingin:easeInOutBack;fadein:false;clipin:0 100% 0 0;offsetxout:-100lw;durationout:1500;startatout:transitioninend + 5100;easingout:easeInBack;fadeout:false;position:fixed;">
 				<img width="1570" height="425" src="images/layerslider/slider-overlay-02.png" class="ls-l" alt="" style="top:0;left:-300px;text-align:initial;font-weight:400;font-style:normal;text-decoration:none;wordwrap:false;opacity:1;" data-ls="showinfo:1;offsetxin:-100lw;durationin:1500;easingin:easeInOutBack;fadein:false;clipin:0 100% 0 0;offsetxout:-100lw;durationout:1500;startatout:transitioninend + 5000;easingout:easeInBack;fadeout:false;position:fixed;">
 				<h2 style="text-transform:uppercase;top:40px;left:90px;text-align:initial;font-weight:400;font-style:normal;text-decoration:none;word-wrap:normal;opacity:1;font-family:Gudea;font-size:36px;color:#ffffff; margin-top:120px!important" class="ls-l" data-ls="showinfo:1;offsetxin:-100lw;durationin:800;delayin:1500;easingin:easeInOutBack;offsetxout:-100lw;durationout:800;startatout:transitioninend + 4600;easingout:easeInBack;clipout:0 100% 0 0;position:fixed;">
@@ -27,7 +27,7 @@
 				</h2>
 			</div>
 			<div class="ls-slide" data-ls="duration:10000;transition2d:70;timeshift:-3200;kenburnsscale:1.2;">
-				<img width="2560" height="425" src="images/layerslider/01_slide-03.jpg" class="ls-bg" alt="">
+				<img height="425" src="images/layerslider/01_slide-03.jpg" class="ls-bg" alt="">
 				<img width="1610" height="425" src="images/layerslider/slider-overlay-01.png" class="ls-l" alt="" style="top:0;left:-300px;text-align:initial;font-weight:400;font-style:normal;text-decoration:none;wordwrap:false;opacity:1;" data-ls="showinfo:1;offsetxin:-100lw;durationin:1500;delayin:200;easingin:easeInOutBack;fadein:false;clipin:0 100% 0 0;offsetxout:-100lw;durationout:1500;startatout:transitioninend + 5100;easingout:easeInBack;fadeout:false;position:fixed;">
 				<img width="1570" height="425" src="images/layerslider/slider-overlay-02.png" class="ls-l" alt="" style="top:0;left:-300px;text-align:initial;font-weight:400;font-style:normal;text-decoration:none;wordwrap:false;opacity:1;" data-ls="showinfo:1;offsetxin:-100lw;durationin:1500;easingin:easeInOutBack;fadein:false;clipin:0 100% 0 0;offsetxout:-100lw;durationout:1500;startatout:transitioninend + 5000;easingout:easeInBack;fadeout:false;position:fixed;">
 				<h2 style="text-transform:uppercase;top:40px;left:90px;text-align:initial;font-weight:400;font-style:normal;text-decoration:none;word-wrap:normal;opacity:1;font-family:Gudea;font-size:36px;color:#ffffff; margin-top:120px!important" class="ls-l" data-ls="showinfo:1;offsetxin:-100lw;durationin:800;delayin:1500;easingin:easeInOutBack;offsetxout:-100lw;durationout:800;startatout:transitioninend + 4600;easingout:easeInBack;clipout:0 100% 0 0;position:fixed;">

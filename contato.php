@@ -47,7 +47,7 @@
 					</div>
 					<div class="row">
 						<div class="columns small-12 medium-5">
-							<button type="submit" class="btn">Enviar</button>
+							<button type="submit" class="btn btn-enviar">Enviar</button>
 						</div>
 					</div>
 				</form>
