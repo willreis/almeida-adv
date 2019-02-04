@@ -4,32 +4,15 @@
 			<div class="row align-right">
 				<div class="columns shrink">
 					<div class="socials socials--slide-hover">
-						<a href="#">
-							<i class="icon-twitter icon-hover"></i>
-							<i class="icon-twitter"></i>
-						</a>
-						<a href="#">
+						<a href="https://www.facebook.com/advalmeidaassociados/?ref=br_rs" target="blank">
 							<i class="icon-facebook icon-hover"></i>
 							<i class="icon-facebook"></i>
 						</a>
-						<a href="#">
-							<i class="icon-linkedin icon-hover"></i>
-							<i class="icon-linkedin"></i>
-						</a>
-						<a href="#">
-							<i class="icon-pinterest-4 icon-hover"></i>
-							<i class="icon-pinterest-4"></i>
-						</a>
-						<a href="#">
-							<i class="icon-rss-1 icon-hover"></i>
-							<i class="icon-rss-1"></i>
-						</a>
-						<a href="#">
-							<i class="icon-gplus-1 icon-hover"></i>
-							<i class="icon-gplus-1"></i>
+						<a href="https://instagram.com/almeidadv_?utm_source=ig_profile_share&igshid=audd99sisujh" target="blank">
+							<i class="icon-instagram icon-hover"></i>
+							<i class="icon-instagram"></i>
 						</a>
 					</div>
-
 				</div>
 			</div>
 		</div>

@@ -6,7 +6,6 @@
 				<p>Rua Santa Cruz, 289, Centro, Itu/SP<br> CEP: 13.300-090</p>
 				<p class="widget-address__info"><i class="fas fa-phone"></i>&nbsp;&nbsp;(11) 4023-3376</p>
 				<p class="widget-address__info"><i class="fas fa-mobile-alt"></i>&nbsp;&nbsp; (11) 97100-3670</p>
-				<p class="widget-address__info"><a href="mailto:email@email.com" style="color:#fff; text-decoration:none"><i class="fas fa-at"></i>&nbsp;&nbsp;email@email.com</a></p>
 			</section>
 		</div>
 		<div class="columns small-12 medium-6 large-3">
@@ -38,13 +37,9 @@
 				</div>
 				<div class="columns small-12 shrink">
 					<div class="socials">
-						<a href="#"><i class="icon-twitter"></i></a>
-						<a href="#"><i class="icon-facebook"></i></a>
-						<a href="#"><i class="icon-rss-1"></i></a>
-						<a href="#"><i class="icon-linkedin"></i></a>
-						<a href="#"><i class="icon-pinterest-4"></i></a>
-						<a href="#"><i class="icon-gplus-1"></i></a>
-						<a href="#"><i class="icon-instagram"></i></a>
+						<a href="https://www.facebook.com/advalmeidaassociados/?ref=br_rs" target="blank"><i class="icon-facebook"></i></a>
+						<a href="https://instagram.com/almeidadv_?utm_source=ig_profile_share&igshid=audd99sisujh" target="blank"><i class="icon-instagram"></i></a>
+						<a href="mailto:contato@almeidaadvogadosassociados.com.br" target="blank"><i class="icon-post"></i></a>
 					</div>
 				</div>
 			</div>
@@ -54,10 +49,10 @@
 		<div class="columns small-12">
 			<div class="row align-justify align-middle copyright small-collapse">
 				<div class="columns small-12 medium-expand">
-					Copyright © <span>20<?php echo date('y');?></span> Almeida & advogados associados. All rights reserved
+					Copyright © <span>20<?php echo date('y');?></span> Almeida Advogados Associados. Direitos Reservados
 				</div>
 				<div class="columns small-12 shrink">
-					Developed by <a href="mailto:william.reis.silva@gmail.com">Will Reis</a>
+					Desenvolvido por <a href="mailto:william.reis.silva@gmail.com">Will Reis</a>
 				</div>
 			</div>
 		</div>

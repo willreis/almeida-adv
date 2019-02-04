@@ -20,7 +20,7 @@
 		<!--FORM CONTATO-->
 		<div class="row">
 			<div class="columns">
-				<form class="contact-form js-contact-form" action="mail.php" method="post">
+				<form class="contact-form" action="http://almeidaadvogadosassociados.com.br/envia-email.php" method="post">
 					<div class="row">
 						<div class="columns">
 							<h2 class="element-title contact-form__title" style="margin-top:50px">Fale Conosco</h2>
@@ -29,33 +29,33 @@
 					<div class="row">
 						<div class="columns small-12 medium-5">
 							<label for="name">Nome*</label>
-							<input type="text" name="fields[name]" id="nome" required>
+							<input type="text" name="nome" id="nome" required>
 
 							<label for="email">Email*</label>
-							<input type="email" name="fields[email]" id="email" required>
+							<input type="email" name="email" id="email" required>
 
-							<label for="subject">Assunto</label>
-							<input type="text" name="fields[subject]" id="assunto">
+							<label for="subject">Assunto*</label>
+							<input type="text" name="assunto" id="assunto" required>
 
 							<label for="phone">Telefone*</label>
-							<input type="tel" name="fields[phone]" id="telefone">
+							<input type="tel" name="telefone" id="telefone">
 						</div>
 						<div class="columns small-12 medium-7">
 							<label for="message">Mensagem*</label>
-							<textarea name="fields[text]" id="mensagem" required></textarea>
+							<textarea name="mensagem" id="mensagem" required></textarea>
 						</div>
 					</div>
 					<div class="row">
 						<div class="columns small-12 medium-5">
-							<button type="submit" class="btn btn-enviar">Enviar</button>
+							<input type="submit" class="btn btn-enviar" id="BTEnvia" value="ENVIAR">
 						</div>
 					</div>
 				</form>
-				<div class="ajax-result">
+				<!-- <div class="ajax-result">
 					<div class="success"></div>
 					<div class="error"></div>
 				</div>
-				<div class="ajax-loader"></div>
+				<div class="ajax-loader"></div> -->
 			</div>
 		</div>
 		<!--/FORM CONTATO-->
@@ -71,21 +71,21 @@
 							<div class="widget widget-address">
 								<p class="widget-address__text">Rua Santa Cruz, 289, Centro,<br>
 								Itu/SP, CEP: 13.300-090</p>
-								<p class="widget-address__info icon-phone-3">(11) 4023-3376</p>
-								<p class="widget-address__info icon-phone-3">(11) 97100-3670</p>
-								<p class="widget-address__info icon-mail-3"><a class="widget-address__link" href="mailto:thememakers@mail.com">thememakers@mail.com</a></p>
+								<p class="widget-address__info"><i class="fas fa-phone fa-rotate-90"></i> (11) 4023-3376</p>
+								<p class="widget-address__info"><i class="fas fa-mobile-alt"></i> (11) 97100-3670</p>
 							</div>
 
 						</div>
 						<div class="columns small-12 medium-6 large-4">
 							<h4>Email de Contato</h4>
-							<p>Support ticket system: <a href="http://tickets.webtemplatemasters.com">http://tickets.webtemplatemasters.com</a><br> Support forum: <a href="http://forums.webtemplatemasters.com">http://forums.webtemplatemasters.com</a><br> E-mail address: <a href="mailto:thememakers@mail.com">thememakers@mail.com</a>
+							<p class="widget-address__info icon-mail-3"><a class="widget-address__link" href="mailto:contato@almeidaadvogadosassociados.com.br">contato@almeidaadvogadosassociados.com.br</a></p>
 							</p>
 						</div>
 						<div class="columns small-12 medium-6 large-4">
 							<h4>Horario de Trabalho</h4>
 							<p>
-								Segunda-feira à Sexta-feiras das 9h as 18h <br> Sábado: <strong>Fechado</strong><br> Domingo: <strong>Fechado</strong>
+								Segunda-feira à Sexta-feira das 8h as 17:30h <br> 
+								<span style="font-size:14px"><i>Plantão no final de semana mediante agendamento prévio</i></span>
 							</p>
 						</div>
 					</div>
