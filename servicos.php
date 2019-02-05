@@ -44,10 +44,11 @@
 							<img src="images/imagens/1.jpg" alt="" class="s-img-switch">
 						</div>
 					</div>
-					
+					<hr class="separator separator--solid-black hidden-desktop">
 				</article>
 			</div>
 		</div>
+		
 
 		<!--CONTEÚDO-->
 		<div class="row">

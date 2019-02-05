@@ -1,7 +1,7 @@
-		<!-- BANER SLIDER -->
+<!-- BANER SLIDER desktop -->
 
-	<div class="slider-1">
-		<div id="layerslider" class="ls-wp-container fitvidsignore" style="width:1180px;height:425px;margin:0 auto;margin-bottom: 0;z-index:5;">
+	<div class="slider-1 hidden-mobile">
+		<div id="layerslider" class="ls-wp-container fitvidsignore" style="width:1180px;height:425px;margin:0 auto;margin-bottom: 0; z-index:5;">
 			<div class="ls-slide" data-ls="duration:10000;transition2d:70;timeshift:-3200;kenburnsscale:1.2;">
 				<img height="425" src="images/banner/banner1.png" class="ls-bg" alt="slide-1">
 				<img width="1610" height="425" src="images/layerslider/slider-overlay-01.png" class="ls-l" alt="" style="top:0;left:-300px;text-align:initial;font-weight:400;font-style:normal;text-decoration:none;wordwrap:false;opacity:1;" data-ls="showinfo:1;offsetxin:-100lw;durationin:1500;delayin:200;easingin:easeInOutBack;fadein:false;clipin:0 100% 0 0;offsetxout:-100lw;durationout:1500;startatout:transitioninend + 5100;easingout:easeInBack;fadeout:false;position:fixed;">
@@ -38,6 +38,11 @@
 				</h2>
 			</div>
 		</div>
+	</div>
+
+	<!-- BANER SLIDER Mobile -->
+	<div class="hidden-desktop page-heading page-heading--height-2  overlay s-back-switch" style="background-image: url(images/banner/banner1.png);">
+		<h2 class="page-heading__title title-home-mobile" style="text-align:center;">Almeida<br>Advogados Associados</h2>
 	</div>
 
 	<!-- SERVICES and QUOTE -->

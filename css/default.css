@@ -51,3 +51,35 @@ h2.ls-layer {
     border:1px solid #938461;
     box-shadow:none;
 }
+@media only screen and (min-width: 1024px) {
+    .hidden-desktop{
+        display:none;
+    }
+}
+
+/*MOBILE*/
+@media only screen and (max-width: 600px) {
+    .hidden-mobile{
+        display:none;
+    }
+    .row-fluid--menu .menu-search-row {
+        margin: 0;
+        padding: 24px 0 3px 0;
+        height: 100%;
+    }
+    article.row.about-article {
+        margin-bottom: 40px;
+    }
+    .mobile-margin-top{
+        margin-top:30px;
+    }
+    .title-home-mobile{
+        text-align: center;
+        font-size: 27px;
+        line-height: 32px;
+    }
+    h2.about-article__title {
+        text-align: center;
+        padding-top: 40px;
+    }
+}

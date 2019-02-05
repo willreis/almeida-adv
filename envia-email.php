@@ -15,7 +15,7 @@
 	
 	//Configurações do email, ajustar conforme necessidade
 	//==================================================== 
-	$email_destinatario = "william.reis.silva@gmail.com"; // pode ser qualquer email que receberá as mensagens
+	$email_destinatario = "contato@almeidaadvogadosassociados.com.br"; // pode ser qualquer email que receberá as mensagens
 	$email_reply = "$email"; 
 	$email_assunto = "Contato Site Almeida Advogados Associados"; // Este será o assunto da mensagem
 	//====================================================

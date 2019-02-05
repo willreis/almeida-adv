@@ -75,7 +75,7 @@
 			<div class="columns small-12 medium-6 large-3">
 				<div class="service-item">
 					<figure class="effect-apollo">
-						<img src="images/service-item-thumb-4.jpg" alt="">
+						<img src="images/imagens/consumidor.jpg" alt="">
 						<div class="effect-apollo__overlay"></div>
 					</figure>
 					<h4 class="service-item__title"><a href="#">Direito do Consumidor</a></h4>
